@@ -1,0 +1,35 @@
+
+<div (click)="onShowCall()" class="wrapper-head p-lg-1"  [ngClass]="{'bg-transparent border-0': !isVisible}" [ngStyle]="{ 'width.px': !isVisible ? 66 : 300 }">
+    <div class="card-body">
+
+      <div class="d-flex">
+        <div class="me-3">
+          <div class="p-0">
+            <img class="chat-btn" src="assets/image/Groupe7559.png" width="55" alt="">
+          </div>
+        </div>
+        <div *ngIf="isVisible">
+          <span style="font-size: 0.8rem; color: #A2A1A1">Contactez nous ….</span>
+          <!--<span  style="font-size: 0.75rem" class="fw-bolder float-end me-2 close right-0"><i class="bi bi-x-lg"></i></span>-->
+          <div class="">
+            <p class="bottom-0 fw-bold">Saisissez votre mess ….</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  <!--<div class="d-flex">
+    <img (click)="onShowCall()" src="assets/image/imgcall.png" alt="">
+    <p class="ms-2 mt-1 text-primary fw-bolder">1212</p>
+  </div>-->
+</div>
+
+  <div class="wrapper rounded-0" [ngStyle]="{ 'opacity': !isVisible ? 0 : 1 }">
+    <div class="chat-form p-lg-3 mb-2">
+      <input type="text" class="form-control rounded-0 mb-3" placeholder="Objet.">
+      <textarea class="form-control rounded-0" placeholder="Votre message" style="height: 170px"></textarea>
+      <div class="form-group login-btn mt-4">
+        <button class="me-4 btn btn-sm text-white btn-warning btn-block rounded-0 border-0 fw-bold px-lg-3 py-lg-1" type="button">Envoyer</button>
+      </div>
+    </div>
+  </div>

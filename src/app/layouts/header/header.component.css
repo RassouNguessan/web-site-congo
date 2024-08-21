@@ -1,0 +1,30 @@
+
+.form-control::placeholder {
+  font-family: "Made Tommy Soft", sans-serif;
+  color: rgba(255, 255, 255, 0.24);
+}
+
+.form-control {
+  background-color: rgba(255, 255, 255, 0.07);
+}
+
+.form-control {
+  background-color: rgba(255, 255, 255, 0.07);
+}
+
+.mobile-of::placeholder  {
+  font-family: "Made Tommy Soft", sans-serif;
+  color: rgba(7, 13, 93, 0.24);
+}
+
+.pad-head {
+  padding: 0 6rem 0;
+}
+
+
+@media (max-width: 991px) {
+
+  .pad-head {
+    padding: 0 2rem 0;
+  }
+}

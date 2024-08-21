@@ -1,0 +1,10 @@
+<div class="dropdown">
+  <button class="btn btn-sm btn-secondary dropdown-toggle bg-transparent text-white border-0" type="button" id="languageSelect" data-bs-toggle="dropdown" aria-expanded="false">
+    <img [src]="selectedFlag" alt="Selected Flag" width="20" height="15"> {{ selectedLanguage }}
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="languageSelect">
+    <li><a class="dropdown-item" href="#" (click)="selectLanguage('fr')"><img src="assets/image/france.png" alt="French Flag" width="20" height="15">  FR</a></li>
+    <!--<li><a class="dropdown-item" href="#" (click)="selectLanguage('en')"><img src="assets/flags/en.png" alt="English Flag" width="20" height="20"> English</a></li>
+    <li><a class="dropdown-item" href="#" (click)="selectLanguage('es')"><img src="assets/flags/es.png" alt="Spanish Flag" width="20" height="20"> Español</a></li>-->
+  </ul>
+</div>

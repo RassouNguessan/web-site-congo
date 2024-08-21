@@ -1,0 +1,16 @@
+
+.footer-li-none {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footer-li-none li > a {
+  text-decoration: none;
+  color: black;
+}
+
+.deco-none {
+  text-decoration: none;
+  color: black;
+}
+
